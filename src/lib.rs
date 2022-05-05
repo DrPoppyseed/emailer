@@ -1,4 +1,5 @@
 //! src/lib.rs
-pub mod startup;
-pub mod routes;
 pub mod configuration;
+pub mod routes;
+pub mod startup;
+pub mod telementry;
