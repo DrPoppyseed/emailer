@@ -1,0 +1,4 @@
+make: Entering directory `/Users/jay/Developer/github.com/DrPoppyseed/emailer'
+SKIP_DOCKER=true ./scripts/init_db.sh
+make: Leaving directory `/Users/jay/Developer/github.com/DrPoppyseed/emailer'
+ 

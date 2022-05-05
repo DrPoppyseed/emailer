@@ -9,3 +9,15 @@ test:
 
 clean:
 	cargo +nightly udeps
+
+# Build the `emailer` container
+build:
+	docker build --tag emailer .
+
+# Build container with verbose option (shows command output)
+build-v:
+	DOCKER_BUILDKIT=0 docker build --tag emailer .
+
+# Run containerized `emailer` rust app  
+run: 
+	docker run -p 8000:8000 emailer | bunyan
