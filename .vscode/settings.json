@@ -1,3 +1,15 @@
 {
-    "makefile.extensionOutputFolder": "./.vscode"
+  "makefile.extensionOutputFolder": "./.vscode",
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "password": "password",
+      "username": "postgres",
+      "database": "newsletter",
+      "name": "emailer/newsletter"
+    }
+  ]
 }
